@@ -1,0 +1,1 @@
+In this project, I will make a simple game of rock, paper, scissors using my basic knowledge of html, css and javascript.

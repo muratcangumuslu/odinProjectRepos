@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3d0909;
+}
+
+header {
+    background: white;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+header h1 {
+    color:#0a0a0a ;
+    text-align: center;
+    font-family: 'Indie Flower', Helvetica, sans-serif;
+}
+
+.score-board {
+    margin: 20px auto;
+    border: 5px solid whitesmoke;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+    color: whitesmoke;
+    font-size: 35px;
+    padding: 20px, 20px;
+    font-family: 'Indie Flower', Helvetica, sans-serif;
+    position: relative;
+}
+
+.badge {
+    background: #b1322d;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 5px, 15px;
+    font-family: 'Indie Flower', Helvetica, sans-serif;
+}
+
+#user-id {
+    position: absolute;
+    top: 15px;
+    left: -30px;
+}
+
+#computer-id {
+    position: absolute;
+    top: 15px;
+    right: -40px;
+}
+
+.result {
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.result p {
+    text-align: center;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+
+.choices {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.choice {
+    border: 6px solid white;
+    border-radius: 50%;
+    margin: 0 20px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: #484143;
+}
+
+#action-message {
+    text-align: center;
+    color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,30 @@
+*{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: auto;
+    width: 500px;
+    margin: auto;
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 20;
+}
+
+.index-list {
+    display: inline-block;
+    text-align: center;
+}
+
+.index-title {
+    display: flex;
+    justify-content: center;
+}

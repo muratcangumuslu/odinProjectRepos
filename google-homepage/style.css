@@ -1,0 +1,127 @@
+ul li{
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333232;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px 10px 10px 10px;
+  }
+  
+  .header ul li {
+    align-content: space-between;
+    padding-left: 10px;
+  }
+  
+  .fa-th {
+    color: #AAA;
+  }
+  
+  .sign-in {
+    color: white;
+    background: #4185f4;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid #CCC;
+  }
+
+
+.logo-default {
+    background-color: white;
+    background-repeat: no-repeat;
+    bottom: var(--logo-margin-bottom);
+    height: 92px;
+    left: calc(50% - 272px/2);
+    position: absolute;
+    width: 272px;
+    display: block;
+    top: 108px;
+    bottom: 38px;
+  }
+
+.search-bar-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.search-bar {
+    margin-top: 200px;
+    width: 550px;
+    padding: 13px;
+    background: transparent;
+    border-radius: 25px;
+    border: 1px solid rgb(228, 224, 224);
+    font-size: 16px;
+}
+
+.apps {
+    list-style-type: none;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 20px;
+    width: 21px;
+}
+
+.search-buttons {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn1 {
+    background-color: rgb(245, 240, 240);
+    border-radius: 4px;
+    border-color: transparent;
+    padding: 9px 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0px 5px;
+    color: rgb(94, 92, 92);
+}
+
+.btn2 {
+    background-color: rgb(245, 240, 240);
+    border-radius: 4px;
+    border-color: transparent;
+    padding: 9px 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0px 5px;
+    color: rgb(94, 92, 92);
+}
+
+.left-footer {
+    list-style-type: none;
+    display: inline;
+    position: absolute;
+    bottom: 1em;
+    left: 0.5em;
+}
+.left-footer li {
+  padding-left: 1em;
+}
+
+.right-footer {
+  list-style-type: none;
+  display: inline;
+  position: absolute;
+  bottom: 1em;
+  right: 0.5em;
+}
+
+.right-footer li {
+  padding-right: 1em;
+}
