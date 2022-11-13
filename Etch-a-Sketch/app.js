@@ -30,6 +30,9 @@ function makeBoard(rows, columns) {
         })
     } 
 }
+
+// resets the board and changes its size using the user input for rows and columns
+
 function resetBoard() {
     const resetButton = document.querySelector("#resetButton");
     resetButton.addEventListener("click", () => {
